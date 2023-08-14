@@ -1,5 +1,7 @@
 import { CameraSystem } from '../model';
-import { sonyEmountDataset } from './sonyemount';
+import { fujiXDataset } from './fuji-x';
+import { m43Dataset } from './micro-43';
+import { sonyEDataset } from './sony-e';
 
 function mergeDatasets(...datasets: CameraSystem[]): CameraSystem {
   return {
@@ -8,4 +10,4 @@ function mergeDatasets(...datasets: CameraSystem[]): CameraSystem {
   };
 }
 
-export const database = mergeDatasets(sonyEmountDataset);
+export const database = mergeDatasets(sonyEDataset, m43Dataset, fujiXDataset);

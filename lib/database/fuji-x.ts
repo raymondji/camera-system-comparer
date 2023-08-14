@@ -1,10 +1,10 @@
 import { Brand, CameraSystem, CardSlot, LensMount, SensorSize } from '../model';
 
-export const sonyEmountDataset: CameraSystem = {
+export const fujiXDataset: CameraSystem = {
   cameras: [
     {
       common: {
-        name: 'Sony a7 III',
+        name: 'Olympus e-m10 mark ii',
         url: 'https://www.bhphotovideo.com/c/product/1394217-REG/sony_ilce_7m3_alpha_a7_iii_mirrorless.html',
         brand: Brand.Sony,
         lensMount: LensMount.SonyE,

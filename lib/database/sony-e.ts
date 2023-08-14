@@ -1,6 +1,14 @@
 import { Brand, CameraSystem, CardSlot, LensMount, SensorSize } from '../model';
 
-export const sonyEmountDataset: CameraSystem = {
+export enum SonyECamera {
+  a7iii,
+  a7iv,
+  a7c,
+  a6400,
+  a6600,
+}
+
+export const sonyEDataset: CameraSystem = {
   cameras: [
     {
       common: {
